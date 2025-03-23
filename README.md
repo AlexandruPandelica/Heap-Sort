@@ -9,7 +9,7 @@
    - Procesor: AMD RYZEN 3
    - Placa grafica: AMD RADEON
 
-3) Rezultatele experimentale/ Timpii de rulare:
+3) Rezultatele experimentale/ Timpii de rulare (Vectorul are 30 de emelente):
    - Primul test : 29 microsecunde
    - Al doilea test : 5 microsecunde
    - Al treilea test : 4 microsecunde
