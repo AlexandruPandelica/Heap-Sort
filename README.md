@@ -20,6 +20,7 @@
    - Al optelea test : 3 microsecunde
    - Al noualea test : 4 microsecunde
    - Al zecelea test : 5 microsecunde
+     
   
    3) Rezultatele experimentale/ Timpii de rulare (Vectorul are 100 de elemente):
    - Primul test : 23 microsecunde
