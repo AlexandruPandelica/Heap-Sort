@@ -52,7 +52,7 @@ void measureExecutionTime(int arr[], int n) {
 int main() {
     int arr[3000];
     for (int i = 0; i < 3000; i++) {
-        arr[i] = rand() % 100; // Generam valori random intre 0 si 9999
+        arr[i] = rand() % 100; // Generam valori random intre 0 si 99
     }
     int n = sizeof(arr) / sizeof(arr[0]);
 
