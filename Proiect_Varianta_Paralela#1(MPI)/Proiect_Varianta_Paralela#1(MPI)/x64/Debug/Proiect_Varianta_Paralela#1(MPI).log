@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Asus\Desktop\A.P.D\Proiect_Varianta_Paralela#1(MPI)\Proiect_Varianta_Paralela#1(MPI)\main.cpp(27,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Proiect_Varianta_Paralela#1(MPI).vcxproj -> C:\Users\Asus\Desktop\A.P.D\Proiect_Varianta_Paralela#1(MPI)\x64\Debug\Proiect_Varianta_Paralela#1(MPI).exe
