@@ -26,10 +26,10 @@ int main(int argc, char** argv) {
         data = (int*)malloc(N * sizeof(int));
         srand(time(NULL));
         for (int i = 0; i < N; i++)
-            data[i] = rand() % 100000;  // valori între 0 si 99999
+            data[i] = rand() % 100000;  // valori Ã®ntre 0 si 99999
     }
 
-    // Calcul distribu?ie per proces
+
     int* sendcounts = (int*)malloc(size * sizeof(int));
     int* displs = (int*)malloc(size * sizeof(int));
     int rem = N % size, sum = 0;
@@ -110,7 +110,7 @@ int main(int argc, char** argv) {
     // Sortare final?
     qsort(rbuf, total_recv, sizeof(int), compare);
 
-    // Scrie rezultatele locale într-un fi?ier individual
+    // Scrie rezultatele locale Ã®ntr-un fi?ier individual
     char filename[64];
     sprintf_s(filename, sizeof(filename), "output_proces_%d.txt", rank);
     FILE* fout;
@@ -157,7 +157,7 @@ int main(int argc, char** argv) {
             fclose(fglobal);
         }
         else {
-            fprintf(stderr, "Eroare la scrierea în fisierul global.\n");
+            fprintf(stderr, "Eroare la scrierea Ã®n fisierul global.\n");
         }
     }
 
