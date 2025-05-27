@@ -1,4 +1,4 @@
-# Heap-Sort
+# Heap-Sort / Sample-Sort Varianta_Paralela #1(MPI) / Sample-Sort Varianta_Paralela #2(Threads)
 
 1) Cerintele/tema proiectului:
    - Algoritm: Heap-Sort
